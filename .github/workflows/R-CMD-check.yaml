@@ -65,7 +65,7 @@ jobs:
         run: |
            curl -sL  https://mac.r-project.org/libs-4/ |
            sed -n 's/.*href=\([^>]*x86_64.tar.gz\).*/\1/p' |
-           xargs -I % sh -c 'curl https://mac.r-project.org/libs-4/% --output %; sudo tar fvxz % -C /' 
+           xargs -I % sh -c 'curl https://mac.r-project.org/libs-4/% --output %; sudo tar fvxz % -C /usr/local --strip 2' 
            ls -la /usr/local/lib 
            ls -la /usr/local/include
 
