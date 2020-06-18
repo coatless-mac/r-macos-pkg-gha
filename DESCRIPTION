@@ -1,0 +1,15 @@
+Package: pkg
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "James Joseph",
+           family = "Balamuta",
+           role = c("aut", "cre", "cph"),
+           email = "balamut2@illinois.edu",
+           comment = c(ORCID = "0000-0003-2826-8458"))
+Description: What the package does (one paragraph).
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
